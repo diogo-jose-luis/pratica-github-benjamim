@@ -3,23 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Simples</title>
+    <title>Prática GitHub | Versão Elegante</title>
     <link rel="stylesheet" href="style.css">
-
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1 class="estilizado">Bem-vindo</h1>
+    <div class="background-glow" aria-hidden="true"></div>
+    <header class="topbar container">
+        <h1 class="brand">Prática GitHub</h1>
+        <button id="themeToggle" class="btn btn-secondary" type="button" aria-label="Alternar tema">
+            Tema Escuro
+        </button>
     </header>
-    
-    <main>
-        <h2>Conteúdo Principal</h2>
-        <p>Esta é uma página HTML simples com estrutura básica.</p>
+
+    <main class="container">
+        <section class="hero reveal">
+            <p class="badge">Projeto simples, agora com estilo</p>
+            <h2>Uma página mais bonita, elegante e dinâmica.</h2>
+            <p>
+                Atualizada com visual moderno, animações subtis e interações para tornar a experiência mais agradável.
+            </p>
+            <div class="hero-actions">
+                <button id="actionBtn" class="btn btn-primary" type="button">Clica para uma surpresa</button>
+                <p id="dynamicText" class="muted">Pronto para interagir...</p>
+            </div>
+        </section>
+
+        <section class="grid">
+            <article class="card reveal">
+                <h3>Design</h3>
+                <p>Cores harmoniosas, tipografia mais moderna e layout responsivo.</p>
+            </article>
+            <article class="card reveal">
+                <h3>Dinamismo</h3>
+                <p>Botões interativos, mensagem dinâmica e alternância de tema.</p>
+            </article>
+            <article class="card reveal">
+                <h3>Experiência</h3>
+                <p>Transições suaves e elementos organizados para melhor leitura.</p>
+            </article>
+        </section>
+
+        <section class="info reveal">
+            <h3>Estado em tempo real</h3>
+            <p>Hora atual: <strong id="clock">--:--:--</strong></p>
+        </section>
     </main>
-    
-    <footer>
-        <p>&copy; 2026 Meu Projeto</p>
+
+    <footer class="container footer">
+        <p>&copy; 2026 Meu Projeto. Feito com HTML, CSS e JavaScript.</p>
     </footer>
 </body>
 </html>
