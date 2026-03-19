@@ -1,0 +1,35 @@
+body 
+{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+}
+  
+.estilizado{
+    background-color: #4CAF50;
+    color: #ff0000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
